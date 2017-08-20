@@ -28,6 +28,31 @@ body {
   color: white;
 }
 
+#top {
+    
+    color: #2D2D2D;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+
+}
+
+#intro {
+    
+    color: #2D2D2D;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
 .cyan {
   background-color: #1ebacc;
   color: #1ebacc;

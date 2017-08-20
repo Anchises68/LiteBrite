@@ -20,7 +20,7 @@ body {
 .color-picker {
   display: block;
   width: 100%;
-  height: 15vw;
+  height: 10vw;
   text-align: center;
   display: flex;
   align-items: center;
@@ -43,14 +43,29 @@ body {
   color: #ff2f9e;
 }
 
+.mediumblue {
+  background-color: mediumblue;
+  color: mediumblue;
+}
+
+.limegreen {
+  background-color: limegreen;
+  color: limegreen;
+}
+
+.orangered {
+  background-color: orangered;
+  color: orangered;
+}
+
 .select-color {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: black;
-  height: 6vw;
-  width: 17vw;
-  font-size: 2.65vw;
+  height: 4vw;
+  width: 12vw;
+  font-size: 1vw;
   font-weight: bold;
   letter-spacing: 0.2em;
 }
@@ -69,10 +84,26 @@ body {
   border-bottom: 1vw solid #ff2f9e;
 }
 
+.select-color.mediumblue {
+  margin: 0 3vw;
+  border-bottom: 1vw solid mediumblue;
+}
+
+.select-color.limegreen {
+  margin: 0 3vw;
+  border-bottom: 1vw solid limegreen;
+}
+
+.select-color.orangered {
+  margin: 0 3vw;
+  border-bottom: 1vw solid orangered;
+}
+
 .not-selected{
   color: #2D2D2D;
   border-bottom: 1vw solid #2D2D2D !important;
 }
+
 
 .toggle-blink {
   display: flex;
@@ -81,15 +112,15 @@ body {
   margin-left: auto;
   color: white;
   font-weight: bold;
-  height: 6vw;
-  width: 20vw;
+  height: 3vw;
+  width: 10vw;
   border-radius: 0;
   opacity: 0.7;
   background-color: black;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  border: 0.5vw dotted white !important;
-  font-size: 2.75vw;
+  border: 0.1vw dotted white !important;
+  font-size: 1vw;
 }
 
 .opacity {

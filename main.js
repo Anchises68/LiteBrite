@@ -14,7 +14,16 @@ function main() {
   case 'select-color magenta not-selected':
     colorClass = 'magenta';
     break;
-                         }
+  case 'select-color mediumblue not-selected':
+    colorClass = 'mediumblue';
+    break;
+  case 'select-color limegreen not-selected':
+    colorClass = 'limegreen';
+    break;
+  case 'select-color orangered not-selected':
+    colorClass = 'orangered';
+    break;
+   };
     
   $(this).removeClass('not-selected');
   $(this).siblings().addClass('not-selected');
@@ -28,9 +37,9 @@ function main() {
   if (colorClass) {
     $(this).toggleClass('opacity');
     setInterval(function() {
-      $('.box.cyan, .box.yellow, .box.magenta').toggleClass('blink');
-    }, 350);
-  }
+      $('.box.cyan, .box.yellow, .box.magenta, .box.mediumblue, .box.limegreen, .box.orangered').toggleClass('blink');
+    }, 500);
+  };
 
   });
   
